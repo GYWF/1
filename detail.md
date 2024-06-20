@@ -1,4 +1,7 @@
 # Maipu Multi-service converged gateway Unauthorized access vulnerability
+Maipu Multi-service converged gateway has an authentication bypass vulnerability. An unauthenticated attacker can bypass authentication and enter the background.
+
+
 1.First direct access to the background page (http://xxxx/home/index.html), and use burp intercept packets, in turn release the packet
 ```
 /home/index.html
